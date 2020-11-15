@@ -8,3 +8,7 @@ html,body{
 h1{
     color: green;
 }
+img{
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
