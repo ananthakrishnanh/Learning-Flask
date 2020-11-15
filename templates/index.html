@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <title>This only shows up in the browser tab</title>
-</head>
-<body>
-    <p>I can't wait for the next superbowl</p>
-    <h1>I am excited for the half-time shows</h1>
-</body>
-</html>
+{% extends 'structure.html' %}
+
+    {% block main %}
+        <h1>This is the home page.</h1>
+    {% endblock %}
